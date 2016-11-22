@@ -1,0 +1,25 @@
+[
+  {
+    "group": "java",
+    "name": "java",
+    "className": "org.apache.zeppelin.java.JavaInterpreter",
+    "properties": {
+      "java.code.folder": {
+        "envName": null,
+        "propertyName": "java.code.folder",
+        "defaultValue": "/tmp/zeppelin-java",
+        "description": "Folder where the generated code (.java) is store. Default /tmp/zeppelin-java"
+      },
+      "java.libraries.folder": {
+        "envName": null,
+        "propertyName": "java.libraries.folder",
+        "defaultValue": "/tmp/zeppelin-java/libraries",
+        "description": "Folder where all the .jar files are stored"
+      }
+    },
+    "editor": {
+      "language": "java",
+      "editOnDblClick": false
+    }
+  }
+]
